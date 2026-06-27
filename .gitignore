@@ -1,0 +1,10 @@
+# Build artifacts
+/target
+extension.wasm
+Cargo.lock
+
+# Grammar checkout fetched by Zed at build time
+/grammars
+
+# Misc
+.DS_Store

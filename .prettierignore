@@ -1,0 +1,8 @@
+# Rust build output
+target/
+
+# Grammar checkout fetched by Zed at build time
+grammars/
+
+# Zed extension build artifact
+extension.wasm
