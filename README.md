@@ -1,5 +1,9 @@
 # zed-koja
 
+[![CI](https://github.com/koja-lang/zed-koja/actions/workflows/ci.yml/badge.svg)](https://github.com/koja-lang/zed-koja/actions/workflows/ci.yml)
+[![GitHub Release](https://img.shields.io/github/v/release/koja-lang/zed-koja)](https://github.com/koja-lang/zed-koja/releases)
+[![Last Updated](https://img.shields.io/github/last-commit/koja-lang/zed-koja.svg)](https://github.com/koja-lang/zed-koja/commits/main)
+
 A [Zed](https://zed.dev) extension for the [Koja programming language](https://github.com/koja-lang/koja).
 
 ## Getting started
