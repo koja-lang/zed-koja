@@ -1,10 +1,12 @@
 ; Outline (symbol tree) used by Zed's outline panel and breadcrumbs.
 
 (struct_declaration
+  "priv"? @context
   "struct" @context
   name: (_) @name) @item
 
 (enum_declaration
+  "priv"? @context
   "enum" @context
   name: (_) @name) @item
 
@@ -12,6 +14,7 @@
   name: (_) @name) @item
 
 (protocol_declaration
+  "priv"? @context
   "protocol" @context
   name: (_) @name) @item
 
@@ -41,10 +44,12 @@
   name: (_) @name) @item
 
 (const_declaration
+  "priv"? @context
   "const" @context
   name: (_) @name) @item
 
 (type_alias_declaration
+  "priv"? @context
   "type" @context
   name: (_) @name) @item
 
