@@ -1,14 +1,14 @@
 id = "koja"
 name = "Koja"
 description = "Syntax highlighting and language-server support for the Koja programming language."
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Henry Popp <hello@hpopp.dev>"]
 schema_version = 1
 
-# Pinned to the tree-sitter-koja v0.2.0 release.
+# Pinned to the tree-sitter-koja v0.3.0 release.
 [grammars.koja]
 repository = "https://github.com/koja-lang/tree-sitter-koja"
-commit = "01d37129fc641c4160652e32240ccedad426d7bf"
+commit = "b3dfe1c05f814a65afe0e1d99fc9054f38a924dd"
 
 [language_servers.koja-lsp]
 name = "Koja LSP"
