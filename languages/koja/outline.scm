@@ -13,6 +13,10 @@
 (enum_variant
   name: (_) @name) @item
 
+(builtin_declaration
+  "builtin" @context
+  name: (_) @name) @item
+
 (protocol_declaration
   "priv"? @context
   "protocol" @context

@@ -11,6 +11,7 @@
 
 ("struct" @open "end" @close)
 ("enum" @open "end" @close)
+("builtin" @open "end" @close)
 ("impl" @open "end" @close)
 ("extend" @open "end" @close)
 ("protocol" @open "end" @close)

@@ -7,7 +7,8 @@
 ; nothing, which is why the delimiter must be captured inside the node.
 
 ; `end`-terminated constructs: fn / if / unless / match / cond / for /
-; while / loop / receive / struct / enum / protocol / impl / extend.
+; while / loop / receive / struct / enum / builtin / protocol / impl /
+; extend.
 ; `block` itself does not contain `end` — the parent construct does.
 (_ "end" @end) @indent
 
