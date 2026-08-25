@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2026-08-25
+
+### Added
+
+- Highlighting for named function references (`&name/arity`).
+
+### Changed
+
+- Updated to tree-sitter-koja 0.5.0, adding named function references and default parameter values on functions and protocol methods.
+
 ## [0.4.0] - 2026-08-09
 
 ### Added
