@@ -47,6 +47,10 @@
   "fn" @context
   name: (_) @name) @item
 
+(test_declaration
+  "test" @context
+  description: (_) @name) @item
+
 (const_declaration
   "priv"? @context
   "const" @context

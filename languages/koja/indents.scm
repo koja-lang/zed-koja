@@ -6,7 +6,7 @@
 ; to the opener's line. A bare `@end` with no `@indent` in the match does
 ; nothing, which is why the delimiter must be captured inside the node.
 
-; `end`-terminated constructs: fn / if / unless / match / cond / for /
+; `end`-terminated constructs: fn / test / if / match / cond / for /
 ; while / loop / receive / struct / enum / builtin / protocol / impl /
 ; extend.
 ; `block` itself does not contain `end` — the parent construct does.
